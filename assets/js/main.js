@@ -1,3 +1,4 @@
+
 function calcular(){
 	var p = document.getElementById('peso').value;
 	var e = document.getElementById('estatura').value;
@@ -5,3 +6,4 @@ function calcular(){
 	var res = (p / (e*e)).toFixed(2);
 	alert(res);
 }
+
